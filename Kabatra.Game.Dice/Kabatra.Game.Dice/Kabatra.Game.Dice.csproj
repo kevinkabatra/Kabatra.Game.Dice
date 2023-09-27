@@ -1,9 +1,25 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>kevinkabatra</Authors>
+    <Title>Dice Roller</Title>
+    <Description>Generates random dice rolls for single or multiple dice for the following shapes: D4, D6, D8, D10, D12, and D20.</Description>
+    <Copyright>2023 Kevin Kabatra</Copyright>
+    <RepositoryUrl>https://github.com/kevinkabatra/Kabatra.Game.Dice</RepositoryUrl>
+    <PackageTags>Kabatra,Game,Dice,D4,D6,D8,D10,D12,D20</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
